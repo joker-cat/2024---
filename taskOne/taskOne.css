@@ -48,9 +48,11 @@
   color: #919191;
   margin-bottom: 24px;
 }
-.main-content .container .article-set .article-list .article-info .article-tags {
-  display: inline-block;
-  text-align: left;
+.main-content .container .article-set .article-list .article-info .tags-content {
+  display: flex;
+  list-style-type: none;
+}
+.main-content .container .article-set .article-list .article-info .tags-content .article-tags {
   padding: 4px 12px;
   margin-right: 16px;
   border-radius: 16px;

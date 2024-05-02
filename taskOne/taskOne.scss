@@ -66,21 +66,23 @@ $tags-lineheight: 24px;
             font-weight: $p-weight400;
             line-height: $p-lineheight;
             color: $p-color;
-            margin-bottom: $px24;
+            margin-bottom: 24px;
           }
 
-          .article-tags {
-            display: inline-block;
-            text-align: left;
-            padding: 4px 12px;
-            margin-right: 16px;
-            border-radius: 16px;
-            font-size: $tags-fsize16;
-            font-weight: $tags-weight400;
-            line-height: $tags-lineheight;
-            color: $tags-color;
-            background-color: $tags-bg-color;
+          .tags-content {
+            display: flex;
+            list-style-type: none;
 
+            .article-tags {
+              padding: 4px 12px;
+              margin-right: 16px;
+              border-radius: 16px;
+              font-size: $tags-fsize16;
+              font-weight: $tags-weight400;
+              line-height: $tags-lineheight;
+              color: $tags-color;
+              background-color: $tags-bg-color;
+            }
           }
         }
       }
